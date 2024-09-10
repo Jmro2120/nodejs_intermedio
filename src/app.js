@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 const jugadorRutas = require('./rutas/rutasJugador');
-const niveleRutas = require('./rutas/rutasNivel');
+const niveleRutas = require('./rutas/rutasNivel.js');
 const jugadorNivelRutas = require('./rutas/rutasJugadorNivel');
 
 const corsOpciones = {
